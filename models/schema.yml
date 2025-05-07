@@ -1,7 +1,5 @@
- # schema.yml
-
+# schema.yml
  version: 2
-
  sources:
    - name: gz_raw_data
      tables:
@@ -31,6 +29,10 @@
                 - unique
                 - not_null
        - name: raw_gz_adwords
+         description: adwords
        - name: raw_gz_bing
+         description: bing
        - name: raw_gz_criteo
+         description: criteo
        - name: raw_gz_facebook
+         description: facebook
