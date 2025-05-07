@@ -9,5 +9,6 @@ sum(purchase_costs) as total_purchase_cost,
 sum(shipping_fee) as total_shipping_fee,
 sum(log_cost) as total_log_cost,
 sum(quantity) as total_quantity
+sum(Operational_margin) as Operational_margin
 from {{ref("int_orders_operational")}}
 group by date_date
