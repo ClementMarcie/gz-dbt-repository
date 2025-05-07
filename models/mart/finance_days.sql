@@ -1,6 +1,5 @@
 --finance_days.sql
 {{ config(materialized='table') }}
-
 select date_date,
 count(orders_id) as nb_transactions,
 sum(revenue) as revenue,
